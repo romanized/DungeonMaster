@@ -3,15 +3,15 @@ class Weapon
     
 int ID;
 string Name;
-int Damage;
+int MaximumDamage;
 
 
-public Weapon(int iD,string name , int damage)
+public Weapon(int iD,string name , int maximumDamage)
     {
 
 ID = iD;
 Name = name;
-Damage = damage;
+MaximumDamage = maximumDamage;
 
 
 
