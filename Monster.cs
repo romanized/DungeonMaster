@@ -2,16 +2,16 @@ public class Monster
 {
     public int ID { get; set; }
     public string Name { get; set; }
-    public int Damage { get; set; }
-    public int MaxHealth { get; set; }
-    public int CurrentHealth { get; set; }
+    public int MaximumDamage { get; set; }
+    public int CurrentHitPoints { get; set; }
+    public int MaximumHitPoints { get; set; }
 
-    public Monster(int id, string name, int damage, int maxHealth, int currentHealth)
+    public Monster(int id, string name, int maximumDamage, int currentHitPoints, int maximumHitPoints)
     {
         ID = id;
-        Name = name; 
-        Damage = damage;
-        MaxHealth = maxHealth;
-        CurrentHealth = currentHealth;
+        Name = name;
+        MaximumDamage = maximumDamage;
+        CurrentHitPoints = currentHitPoints;
+        MaximumHitPoints = maximumHitPoints;
     }
 }
